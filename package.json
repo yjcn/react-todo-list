@@ -6,15 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "webpack-dev-server",
-    "bundle": "webpack -p"
+    "bundle": "webpack -p",
+    "e2e": "nightwatch --config nightwatch.conf.BASIC.js"
   },
   "keywords": [],
   "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "dependencies": {
+    "chromedriver": "^2.38.3",
+    "env2": "^2.2.0",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
-    "react-github-corner": "^0.3.0"
+    "react-github-corner": "^0.3.0",
+    "selenium-server": "^3.12.0"
   },
   "devDependencies": {
     "babel-core": "^6.20.0",
@@ -22,10 +26,11 @@
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-react": "^6.16.0",
     "css-loader": "^0.26.1",
+    "nightwatch": "^0.9.21",
     "react-hot-loader": "^1.3.1",
+    "style-loader": "^0.13.1",
     "webpack": "^1.14.0",
-    "webpack-dev-server": "^1.16.2",
-    "style-loader": "^0.13.1"
+    "webpack-dev-server": "^1.16.2"
   },
   "homepage": "https://github.com/IonicaBizau/react-todo-app#readme",
   "files": [
