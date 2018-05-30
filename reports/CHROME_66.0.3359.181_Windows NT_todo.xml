@@ -5,9 +5,9 @@
 
   <testsuite name="todo"
     errors="0" failures="0" hostname="" id="" package="todo" skipped="0"
-    tests="1" time="25.00" timestamp="Wed, 30 May 2018 09:41:10 GMT">
+    tests="1" time="22.02" timestamp="Wed, 30 May 2018 09:54:57 GMT">
   
-    <testcase name="Demo test todo-list" classname="todo" time="25.00" assertions="4">
+    <testcase name="Demo test todo-list" classname="todo" time="22.02" assertions="4">
 
     
 
